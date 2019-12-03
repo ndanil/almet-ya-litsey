@@ -1,3 +1,6 @@
 a = int(input())
 b = int(input())
-print(max(a, b))
+m = a
+if b > m:
+    m = b
+print(m)
